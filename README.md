@@ -129,6 +129,11 @@ pose estimation 에 소요되는 시간 : 0.65
 
 mmpose / mmdetection을 설치하기 위해서 필요한 lib/module을 설치하기 위해서는 꽤 많은 시행착오가 존재하였음.  
 1. pytorch 는 최초에 1.3을 사용하려고 하였으나 1.7로 최종확정함. 이는 현재 jetpack 설치시 cuda 10.2 가 설치됨에 기인함.  
-2. numpy는 1.19.4로 설치해야함. 1.19.5설치시 많은 오류가 발생함.  
+2. numpy는 1.19.4로 설치해야함. 1.19.5설치시 많은 오류가 발생함. 
 3. python3 를 사용해야함.  
 4. mmcv 설치시 3시간 정도 소요됨.  
+5. Shapely는 1.7.1 버전을 사용함.
+6. embeded 장비아다 보니 기본적으로 설치되어 있지 않은 ubuntu 패키지들이 꽤 있음. 이것들을 먼저 설치하지 않으면 애로사항을 겪게됨.
+7. 경우에 따라 sudo를 통해서만 설치되는 모듈이 있었음.
+8. matplotlib은 pip 모듈을 사용하지 않고 sudo apt-get install python3-matplotlib 으로 설치하여야 함.
+
