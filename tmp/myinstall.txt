@@ -1,0 +1,283 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  ll
+    4  ifconfig
+    5  df
+    6  sudo apt install nvidia-jetpack
+    7  ls
+    8  cd /boot
+    9  ls
+   10  ls -al
+   11  df -h
+   12  ls -ltr
+   13  sudo apt-get update
+   14  sudo apt show nvidia-jetpack
+   15  sudo apt-get update
+   16  sudo apt install nvidia-jetpack
+   17  python
+   18  python3
+   19  pip install torch-1.3.0-cp36-cp36m-linux_aarch64.whl
+   20  pip3 install torch-1.3.0-cp36-cp36m-linux_aarch64.whl
+   21  conda
+   22  python3 -m pip
+   23  python3 -m pip3
+   24  pip3
+   25  pip
+   26  python3 -m ensurepip --default-pip
+   27  python3 -m pip
+   28  python3 -m pip --version
+   29  cd
+   30  ls
+   31  ls -ltr
+   32  mkdir skcc
+   33  cd skcc
+   34  wget
+   35  wget https://bootstrap.pypa.io/get-pip.py
+   36  python get-pip.py 
+   37  python3 get-pip.py 
+   38  pip
+   39  python3 -m pip
+   40  python3 -m pip torch-1.3.0-cp36-cp36m-linux_aarch64.whl
+   41  wget https://nvidia.box.com/shared/static/phqe92v26cbhqjohwtvxorrwnmrnfx1o.whl
+   42  ls -ltr
+   43  mv phqe92v26cbhqjohwtvxorrwnmrnfx1o.whl torch-1.3.0-cp36-cp36m-linux_aarch64.whl
+   44  python3 -m pip install torch-1.3.0-cp36-cp36m-linux_aarch64.whl
+   45  python3
+   46  sudo vi ~/.bashrc 
+   47  ls -tlr /usr/local/
+   48  sudo vi ~/.bashrc
+   49  source ~/.bashrc
+   50  python3
+   51  l4t-pytorch
+   52  wget https://nvidia.box.com/shared/static/cs3xn3td6sfgtene6jdvsxlr366m2dhq.whl
+   53  ls
+   54  ls -ltr
+   55  mv cs3xn3td6sfgtene6jdvsxlr366m2dhq.whl torch-1.7.0-cp36-cp36m-linux_aarch64.whl
+   56  python3 -m pip install torch-1.7.0-cp36-cp36m-linux_aarch64.whl 
+   57  python3
+   58  sudo apt-get install libopenblas-base libopenmpi-dev
+   59  python3
+   60  pip3
+   61  sudo pip3
+   62  python3 -m pip install pycocotools
+   63  python3 -m pip install torchvision
+   64  python3 -m pip install terminaltables
+   65* python3 -m pip install 
+   66  python3 -m pip install pycocotools
+   67  history
+   68  pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7.0/index.html
+   69  python3 -m pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7.0/index.html
+   70  sudo apt-get install python3-dev
+   71  python3 -m pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7.0/index.html
+   72  ls -tlr
+   73  mkdir git
+   74  cd git
+   75  ls -tlr
+   76  git clone https://github.com/open-mmlab/mmdetection.git
+   77  cd mmdetection/
+   78  ls
+   79  ls -ltr
+   80  vi setup.py 
+   81  cd ..
+   82  python3 -m pip install mmdet
+   83  sudo apt-get install python-matplotlib
+   84  python3 -m pip install mmdet
+   85  sudo apt-get install python3-matplotlib
+   86  python3 -m pip install mmdet
+   87  ㅣㄴ -ls
+   88  ls -ltr
+   89  mkdir test
+   90  cd test
+   91  ls -ltr
+   92  vi verify.py
+   93  cd ..
+   94  cd mmdetection/
+   95  ls -ltr
+   96  vi verify.py
+   97  python3 verify.py 
+   98  ls
+   99  ls -ltr
+  100  mkdir checkpoints
+  101  cd checkpoints/
+  102  wget https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_1x_coco/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth
+  103  cd ..
+  104  python3 verify.py 
+  105  vi verify.py 
+  106  python3 verify.py 
+  107  vi verify.py 
+  108  python3 verify.py 
+  109  vi verify.py 
+  110  python3 verify.py 
+  111  vi verify.py 
+  112  python3 verify.py 
+  113  ls -ltr
+  114  cat verify.py 
+  115  python3 verify.py 
+  116  ..
+  117  cd ..
+  118  git clone git@github.com:open-mmlab/mmpose.git
+  119  git clone https://github.com/open-mmlab/mmpose.git
+  120  cd mmpose
+  121  pip install -r requirements.txt 
+  122  python3 -m pip install -r requirements.txt 
+  123  python3 -m pip install pycocotools
+  124  python3 -m pip install -r requirements.txt 
+  125  vi requirements.txt 
+  126  python3 setup.py develop
+  127  python3 -m pip install -r requirements.txt 
+  128  python3 -m pip install xtcocotools
+  129  ls -ltr
+  130  vi requirements.txt 
+  131  cd requirements/
+  132  ls
+  133  ls -ltr
+  134  cat build.txt 
+  135  cat runtime.txt 
+  136* 
+  137  cat optional.txt 
+  138  cd ..
+  139  ls
+  140  ls -ltr
+  141  cd requirements/
+  142  git status
+  143  git checkout -b removextcoco
+  144  ls -ltr
+  145  vi runtime.txt 
+  146  cd ..
+  147  python3 -m pip install -r requirements.txt 
+  148  ls -ltr
+  149  cd requirements/
+  150  ls
+  151  ls-ltr
+  152  ls -tlr
+  153  vi tests.txt 
+  154  vi optional.txt 
+  155  cd ..
+  156  ls
+  157  vi requirements
+  158  vi requirements.txt 
+  159  python3 -m pip install -r requirements.txt 
+  160  python demo/top_down_img_demo.py     configs/body/2D_Kpt_SV_RGB_Img/topdown_hm/coco/hrnet_w48_coco_256x192.py     https://download.openmmlab.com/mmpose/top_down/hrnet/hrnet_w48_coco_256x192-b9e0b3ab_20200708.pth     --img-root tests/data/coco/ --json-file tests/data/coco/test_coco.json     --out-img-root vis_results
+  161  python3 demo/top_down_img_demo.py     configs/body/2D_Kpt_SV_RGB_Img/topdown_hm/coco/hrnet_w48_coco_256x192.py     https://download.openmmlab.com/mmpose/top_down/hrnet/hrnet_w48_coco_256x192-b9e0b3ab_20200708.pth     --img-root tests/data/coco/ --json-file tests/data/coco/test_coco.json     --out-img-root vis_results
+  162  python demo/top_down_img_demo.py     configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/res50_macaque_256x192.py     https://download.openmmlab.com/mmpose/animal/resnet/res50_macaque_256x192-98f1dd3a_20210407.pth     --img-root tests/data/macaque/ --json-file tests/data/macaque/test_macaque.json     --out-img-root vis_results
+  163  python3 demo/top_down_img_demo.py     configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/res50_macaque_256x192.py     https://download.openmmlab.com/mmpose/animal/resnet/res50_macaque_256x192-98f1dd3a_20210407.pth     --img-root tests/data/macaque/ --json-file tests/data/macaque/test_macaque.json     --out-img-root vis_results
+  164  vi demo/top_down_img_demo.py 
+  165  python3 -m pip install xtcocotools
+  166  cd ..
+  167  git clone https://github.com/jin-s13/xtcocoapi.git
+  168  cd xtcocoapi/
+  169  ls
+  170  ls -ltr
+  171  python3 -m pip install -r requirements.txt 
+  172  python3 setup.py install
+  173  cat setup.py 
+  174  python3 setup.py install
+  175  ls -ltr
+  176  python setup.py build_ext install
+  177  python3 setup.py build_ext install
+  178  OPENBLAS_CORETYPE=ARMV8 python3 setup.build_ext install
+  179  OPENBLAS_CORETYPE=ARMV8 python3 setup.py build_ext install
+  180  python3 -m pip list numpy
+  181  python3 -m pip list | grep numpy
+  182  python3 -m pip uninstall numpy
+  183  python3 -m pip install numpy==1.19.4
+  184  python3 setup.py build_ext install
+  185  sudo python3 setup.py build_ext install
+  186  cd ..
+  187  ls
+  188  ls -ltr
+  189  cd mmpose
+  190  ls
+  191  ls -ltr
+  192  python3 demo/top_down_img_demo.py     configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/res50_macaque_256x192.py     https://download.openmmlab.com/mmpose/animal/resnet/res50_macaque_256x192-98f1dd3a_20210407.pth     --img-root tests/data/macaque/ --json-file tests/data/macaque/test_macaque.json     --out-img-root vis_results
+  193  pip install -r requirements.txt 
+  194  python3 -m pip install -r requirements.txt 
+  195  python3 setup.py develop
+  196  sudo python3 setup.py develop
+  197  python3 demo/top_down_img_demo.py     configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/res50_macaque_256x192.py     https://download.openmmlab.com/mmpose/animal/resnet/res50_macaque_256x192-98f1dd3a_20210407.pth     --img-root tests/data/macaque/ --json-file tests/data/macaque/test_macaque.json     --out-img-root vis_results
+  198  python3 -m pip install trimesh
+  199  python3 demo/top_down_img_demo.py     configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/res50_macaque_256x192.py     https://download.openmmlab.com/mmpose/animal/resnet/res50_macaque_256x192-98f1dd3a_20210407.pth     --img-root tests/data/macaque/ --json-file tests/data/macaque/test_macaque.json     --out-img-root vis_results
+  200  python3 -m pip install poseval
+  201  sudo python3 -m pip install poseval
+  202  python3 demo/top_down_img_demo.py     configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/macaque/res50_macaque_256x192.py     https://download.openmmlab.com/mmpose/animal/resnet/res50_macaque_256x192-98f1dd3a_20210407.pth     --img-root tests/data/macaque/ --json-file tests/data/macaque/test_macaque.json     --out-img-root vis_results
+  203  vi ./mmpose/datasets/datasets/top_down/topdown_posetrack18_dataset.py 
+  204  ls
+  205  ls -ltr
+  206  vi ./mmpose/datasets/datasets/top_down/topdown_posetrack18_dataset.py 
+  207  cd mmpose
+  208  ls
+  209  ls -ltr
+  210  vi ./mmpose/datasets/datasets/top_down/topdown_posetrack18_dataset.py 
+  211  cd ..
+  212  vi ./mmpose/datasets/datasets/top_down/topdown_posetrack18_dataset.py 
+  213  cd mmpose
+  214  cd datasets/
+  215  ls
+  216  ls -ltr
+  217  cd ..
+  218  ls
+  219  ls -ltr
+  220  cd ..
+  221  ls -ltr
+  222  git status
+  223  git checkout .
+  224  git status
+  225  pip install -r requirements.txt 
+  226  pip3 -m pip install -r requirements.txt 
+  227  python33 -m pip install -r requirements.txt 
+  228  python3 -m pip install -r requirements.txt 
+  229  ls -ltr
+  230  vi requirements.txt 
+  231  python3 -m pip install -r requirements.txt 
+  232  python
+  233  python3
+  234  python3 setup.py develop
+  235  sudo python3 setup.py develop
+  236  python demo/top_down_img_demo.py     configs/body/2D_Kpt_SV_RGB_Img/topdown_hm/coco/hrnet_w48_coco_256x192.py     https://download.openmmlab.com/mmpose/top_down/hrnet/hrnet_w48_coco_256x192-b9e0b3ab_20200708.pth     --img-root tests/data/coco/ --json-file tests/data/coco/test_coco.json     --out-img-root vis_results
+  237  python3 demo/top_down_img_demo.py     configs/body/2D_Kpt_SV_RGB_Img/topdown_hm/coco/hrnet_w48_coco_256x192.py     https://download.openmmlab.com/mmpose/top_down/hrnet/hrnet_w48_coco_256x192-b9e0b3ab_20200708.pth     --img-root tests/data/coco/ --json-file tests/data/coco/test_coco.json     --out-img-root vis_results
+  238  cd tests
+  239  cd data
+  240  cd coco
+  241  ls
+  242  cd ..
+  243  vi ./mmpose/datasets/datasets/top_down/topdown_posetrack18_dataset.py 
+  244  ls -ltr
+  245  cd ..
+  246  cd mmmpose
+  247  cd mmpose
+  248  ls
+  249  ls -tlr
+  250  cd demo
+  251  ls
+  252  ls -ltr
+  253  python3 top_down_pose_tracking_demo_with_mmdet.py 
+  254  python3 -m pip install mmpose
+  255  python3 top_down_pose_tracking_demo_with_mmdet.py 
+  256  cd ..
+  257  git clone https://github.com/svenkreiss/poseval.git
+  258  cd poseval/
+  259  ls
+  260  python3 -m pip install -e .
+  261  python3 top_down_pose_tracking_demo_with_mmdet.py 
+  262  cd ..
+  263  cd mmpose/
+  264  cd demo
+  265  python3 top_down_pose_tracking_demo_with_mmdet.py 
+  266  export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH 
+  267  python3 top_down_pose_tracking_demo_with_mmdet.py 
+  268  python3 -m pip list shapely
+  269  python3 -m pip list | grep hape
+  270  python3 -m pip uninstall Shapely
+  271  python3 -m pip install Shapely
+  272  python3 -m pip uninstall Shapely
+  273  sudo apt-get install libgeos-dev
+  274  python3 -m pip install Shapely
+  275  python3 top_down_pose_tracking_demo_with_mmdet.py 
+  276  cd ..
+  277  python3 demo/top_down_img_demo.py     configs/body/2D_Kpt_SV_RGB_Img/topdown_hm/coco/hrnet_w48_coco_256x192.py     https://download.openmmlab.com/mmpose/top_down/hrnet/hrnet_w48_coco_256x192-b9e0b3ab_20200708.pth     --img-root tests/data/coco/ --json-file tests/data/coco/test_coco.json     --out-img-root vis_results
+  278  python3 demo/top_down_img_demo.py     configs/body/2d_kpt_sview_rgb_img/topdown_hm/coco/hrnet_w48_coco_256x192.py     https://download.openmmlab.com/mmpose/top_down/hrnet/hrnet_w48_coco_256x192-b9e0b3ab_20200708.pth     --img-root tests/data/coco/ --json-file tests/data/coco/test_coco.json     --out-img-root vis_results
+  279  python3 demo/top_down_img_demo.py     configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/hrnet_w48_coco_256x192.py  https://download.openmmlab.com/mmpose/top_down/hrnet/hrnet_w48_coco_256x192-b9e0b3ab_20200708.pth     --img-root tests/data/coco/ --json-file tests/data/coco/test_coco.json     --out-img-root vis_results
+  280  cd ..
+  281  ls
+  282  history 
+  283  history > myinstall.txt
