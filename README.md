@@ -13,7 +13,7 @@ DAD(xavier nx) 장비의 edge 에서의 활용가능성을 판단하기 위하�
 
 이미지 사이즈 640x480을 기준으로
 
-detection 에 소요되는 시간 : 1.32
+detection 에 소요되는 시간 : 1.32  
 pose estimation 에 소요되는 시간 : 0.65
 
 한 프레임 처리에 1.97 초
