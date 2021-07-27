@@ -135,5 +135,5 @@ mmpose / mmdetection을 설치하기 위해서 필요한 lib/module을 설치하
 5. Shapely는 1.7.1 버전을 사용함.
 6. embeded 장비아다 보니 기본적으로 설치되어 있지 않은 ubuntu 패키지들이 꽤 있음. 이것들을 먼저 설치하지 않으면 애로사항을 겪게됨.
 7. 경우에 따라 sudo를 통해서만 설치되는 모듈이 있었음.
-8. matplotlib은 pip 모듈을 사용하지 않고 sudo apt-get install python3-matplotlib 으로 설치하여야 함.
+8. matplotlib은 pip 모듈을 사용하지 않고 `sudo apt-get install python3-matplotlib` 으로 설치하여야 함.
 
