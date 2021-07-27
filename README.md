@@ -2,7 +2,22 @@
 
 ## 설정목표
 
-mmdetection / mmpose 를 설치
+DAD(xavier nx) 장비의 edge 에서의 활용가능성을 판단하기 위하여,
+
+1. mmdetection / mmpose 를 설치하고,
+2. pose estimation시의 성능측정
+
+## 측정결과
+
+0.507 (frame/sec)
+
+이미지 사이즈 640x480을 기준으로
+
+detection 에 소요되는 시간 : 1.32
+pose estimation 에 소요되는 시간 : 0.65
+
+한 프레임 처리에 1.97 초
+
 
 ## 설정환경
 
