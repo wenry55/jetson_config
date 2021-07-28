@@ -43,19 +43,26 @@ pose estimation 에 소요되는 시간 : 0.44
 
     6  sudo apt install nvidia-jetpack
    14  sudo apt show nvidia-jetpack
-
+   
+   48  sudo vi ~/.bashrc
+# 아래라인들을 추가, cuda는 cuda 10.2에 대한 symlink, /usr/local/cuda 가 없을경우는 jetpack 설치가 안된것임. 
+export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+   49  source ~/.bashrc
+   
+   
    32  mkdir skcc
    33  cd skcc
    35  wget https://bootstrap.pypa.io/get-pip.py
    37  python3 get-pip.py 
    39  python3 -m pip
 
-   48  sudo vi ~/.bashrc
-   49  source ~/.bashrc
-
    52  wget https://nvidia.box.com/shared/static/cs3xn3td6sfgtene6jdvsxlr366m2dhq.whl
    55  mv cs3xn3td6sfgtene6jdvsxlr366m2dhq.whl torch-1.7.0-cp36-cp36m-linux_aarch64.whl
    56  python3 -m pip install torch-1.7.0-cp36-cp36m-linux_aarch64.whl 
+   
+# 설치후 torch check => import torch, torch.__version__ 
+# 이상이 있을 경우 해결하고 넘어가야함!
 
    58  sudo apt-get install libopenblas-base libopenmpi-dev
   273  sudo apt-get install libgeos-dev
@@ -65,6 +72,7 @@ pose estimation 에 소요되는 시간 : 0.44
    62  python3 -m pip install pycocotools
    63  python3 -m pip install torchvision
    64  python3 -m pip install terminaltables
+   65  python3 -m pip install Cython
    66  python3 -m pip install pycocotools
 
    69  python3 -m pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7.0/index.html
