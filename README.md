@@ -77,6 +77,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PAT
 
    69  python3 -m pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7.0/index.html
 
+# 2~3 시간 소요됨.
+
    73  mkdir git
    74  cd git
    76  git clone https://github.com/open-mmlab/mmdetection.git
