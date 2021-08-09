@@ -13,7 +13,7 @@ Enter same passphrase again:
 
 2. ssh-copy-id -i ~/.ssh/id_rsa.pub bnd@dad주소
 
-3. ssh bnd@주소 으로 접속하여 패스워드 없이 접속되는 것 확인.
+3. ssh -i ~/.ssh/id_rsa bnd@주소 으로 접속하여 패스워드 없이 접속되는 것 확인.
 
 4. 아래를 실행하여 확인 (rsync.log)
 
